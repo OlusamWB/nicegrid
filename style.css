@@ -391,9 +391,10 @@ header {
 }
 .about {
     width: 80%;
-    margin-top: 30%;
+    margin: auto;
     display: flex;
-    justify-content: center;
+    background-color: #250455;
+
 }
 .about img{
     width: 500px;
@@ -404,5 +405,5 @@ header {
     color: white;
 }
 .about .first-about img {
-    margin-bottom: -50px;
+    margin-bottom: 50px;
 }
