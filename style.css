@@ -315,7 +315,7 @@ header {
 }
 .photos {
     background-color: #250455 ;
-    padding: 80px 0px;
+    padding: 80px 0px 20px;
     height: 100%;
     position: relative;
     z-index: 1;
@@ -326,7 +326,7 @@ header {
     top: 30px;
     left: calc(27% - 0px + 10px); /* Adjust position to sit between the first and second images */
     width: calc(22% + 0px); /* Cover half of both images */
-    height: calc(49% + 50px); /* Extend till the bottom of the portfolio section */
+    height: calc(73% + 50px); /* Extend till the bottom of the portfolio section */
     background-color: #a37fdf; /* Adjust the color as needed */
     z-index: -1;
 }
@@ -390,9 +390,13 @@ header {
     color: black;
     text-decoration: underline;
 }
+.pre-about {
+    background: linear-gradient(to bottom, #250455 50%, #f2f2f2 50%);
+}
 .about {
-    margin-top: 500px;
     width: 80%;
+    margin-top: 500px;
+    height: 80vh;
     margin: auto;
     display: flex;
 }
@@ -409,6 +413,7 @@ header {
     color: white;
     z-index: 2;
     margin-left: -50px;
+    box-shadow: 0 0 40px 0 rgba(0, 0, 0, 0.2);
 }
 .aboutus h2 {
     font: bolder 45px 'raleway';
@@ -416,11 +421,12 @@ header {
 }
 .about .first-about img {
     margin-bottom: -50px;
+    box-shadow: 0 0 40px 0 rgba(0, 0, 0, 0.2);
 }
 .about .second-about {
     margin-left: -200px;
     margin-top: 100px;
-    box-shadow: #000000;
+    box-shadow: 0 0 40px 0 rgba(0, 0, 0, 0.01);
 }
 .aboutus p {
     font-size: 16px;
