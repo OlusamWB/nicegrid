@@ -469,3 +469,25 @@ header {
     color: #a37fdf;
     margin-bottom: 20px;
 }
+.contact-form {
+    background-color: #250455;
+    padding: 20px;
+}
+.contact-form .contact {
+    width: 80%;
+    margin: 30px auto;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+.contact-form .contact .touch {
+    background-color: #a37fdf;
+    padding: 30px;
+}
+.contact-form .contact .touch h3 {
+    font: bolder 35px 'raleway';
+    color: white;
+    margin-bottom: 15px;
+}
+.contact-form {
+
+}
