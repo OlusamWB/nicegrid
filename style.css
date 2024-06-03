@@ -475,21 +475,54 @@ header {
 }
 .contact-form .contact {
     width: 80%;
-    margin: 30px auto;
+    margin: 40px auto;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
 }
 .contact-form .contact .touch {
     background-color: #a37fdf;
-    padding: 30px;
+    padding: 40px;
 }
 .contact-form .contact .touch h3 {
     font: bolder 35px 'raleway';
     color: white;
     margin-bottom: 15px;
 }
-.touch-para p {
+.touch-para {
     color: white;
     font-size: 18px;
     font-weight: 300;
+    margin-bottom: 30px; 
+}
+.chart, .office,.phone {
+    color: white;
+    font-size: 18px;
+    font-weight: 400;
+    margin-bottom: 30px;
+}
+.level {
+    background-color: white;
+    padding: 40px;
+}
+.level h2 {
+    font-family: 'raleway';
+    font-size: 45px;
+    margin-bottom: 30px;
+}
+.level form {
+    margin-top: 30px;
+}
+.level form input, .level form textarea{
+    width: 100%;
+    height: 50px;
+    background-color: whitesmoke;
+    margin-bottom: 10px;
+    padding-left: 15px;
+    font-size: 16px;
+}
+.level form textarea {
+    height: 120px;
+}
+.level form input .form_button {
+    background-color: #916ad5;
 }
