@@ -7,6 +7,10 @@
     outline: none;
     font-family: 'open sans';
 }
+img {
+    display: block;
+    max-width: 100%;
+}
 header {
     display: flex;
     justify-content: space-between;
